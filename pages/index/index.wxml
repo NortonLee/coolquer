@@ -1,0 +1,7 @@
+<view class='logo'>
+  <image src="../../assets/images/in.jpg" />
+</view>
+<view class='info-text'>
+  <view>Welcome Coolde</view>
+  <view>欢迎来到酷趣儿</view>
+</view>

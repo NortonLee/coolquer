@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dashboard/index",
+    "pages/wc/index",
+    "pages/hotel/index",
+    "pages/oil/index",
+    "pages/search/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "酷趣儿",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "dark"
+  }
+}

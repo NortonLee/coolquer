@@ -1,0 +1,22 @@
+/**index.wxss**/
+page {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.logo image{
+  width: 120px;
+  height: 120px;
+}
+
+.info-text{
+  text-align: center;
+  margin: 2rem;
+}

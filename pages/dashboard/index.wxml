@@ -1,0 +1,33 @@
+<view>
+  <view class='view-row self-view'>
+    <view class='search-input'>
+      <input type='text' placeholder='找找看吧~' bindblur='search' bindinput='searchInput' value='{{ searchData }}' />
+    </view>
+    <view>
+      <image src="../../assets/images/search.png" bindtap='search'></image>
+    </view>
+  </view>
+  <view class='view-row quick-view'>
+    <view class='view-col'>
+      <view bindtap='goWC'>
+        <image src='../../assets/images/wc.png'></image>
+        <view>找厕所</view>
+      </view>
+    </view>
+    <view class='view-col'>
+      <view bindtap='goHotel'>
+        <image src='../../assets/images/hotel.png'></image>
+        <view>找酒店</view>
+      </view>
+    </view>
+    <view class='view-col'>
+      <view bindtap='goOil'>
+        <image src='../../assets/images/oil.png'></image>
+        <view>去加油</view>
+      </view>
+    </view>
+  </view>
+  <view class='view-row'>
+    <view class='more'>更多内容，还在路上~</view>
+  </view>
+</view>
